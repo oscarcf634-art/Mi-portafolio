@@ -88,3 +88,28 @@ body {
         margin: 5px 10px !important;
     }
 }
+
+/* =======================================================
+   REDUCCIÓN EXTRA DE TIPOGRAFÍA PARA PANTALLAS PEQUEÑAS
+   ======================================================= */
+@media (max-width: 576px) {
+    /* Forzar el tamaño de los títulos gigantes dentro del contenedor */
+    h1.display-1.fuente,
+    .navbar-brand.fcomicB,
+    h3.festrella,
+    .seccion-cristal h3,
+    div[style*="font-family"] h3,
+    div[style*="font-family"] h1 {
+        font-size: 1.6rem !important; /* Achica drásticamente el texto en el celular */
+        text-align: center !important;
+        letter-spacing: 2px !important; /* Junta un poco las letras para ganar espacio */
+        white-space: normal !important; /* Permite que el texto se acomode */
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* Ajustar específicamente los textos con fuentes decorativas pesadas */
+    .fuente, .festrella {
+        font-size: 1.5rem !important;
+    }
+}
