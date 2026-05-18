@@ -90,26 +90,47 @@ body {
 }
 
 /* =======================================================
-   REDUCCIÓN EXTRA DE TIPOGRAFÍA PARA PANTALLAS PEQUEÑAS
+   REDUCCIÓN RADICAL DE TIPOGRAFÍA Y CORRECCIÓN DE SCROLL
    ======================================================= */
+
+/* 1. Bloqueo total del movimiento de izquierda a derecha */
+html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important; /* Elimina la barra horizontal por completo */
+}
+
+/* 2. Ajustes forzados exclusivamente para pantallas de celular */
 @media (max-width: 576px) {
-    /* Forzar el tamaño de los títulos gigantes dentro del contenedor */
+    
+    /* Achica y contiene el título principal QUETZCAR y FORMULARIO */
     h1.display-1.fuente,
-    .navbar-brand.fcomicB,
-    h3.festrella,
     .seccion-cristal h3,
-    div[style*="font-family"] h3,
-    div[style*="font-family"] h1 {
-        font-size: 1.6rem !important; /* Achica drásticamente el texto en el celular */
+    h3.festrella,
+    .navbar-brand {
+        font-size: 1.8rem !important; /* Reduce el tamaño para que quepa en el ancho del cel */
         text-align: center !important;
-        letter-spacing: 2px !important; /* Junta un poco las letras para ganar espacio */
-        white-space: normal !important; /* Permite que el texto se acomode */
+        letter-spacing: 1px !important; /* Junta un poco las letras para ahorrar espacio */
+        white-space: normal !important; /* Permite que el texto use dos renglones si es necesario */
         display: block !important;
         width: 100% !important;
     }
 
-    /* Ajustar específicamente los textos con fuentes decorativas pesadas */
-    .fuente, .festrella {
-        font-size: 1.5rem !important;
+    /* Rompe las fuentes inline rebeldes que se salen del cristal */
+    [style*="font-family"], 
+    h3[style*="color"] {
+        font-size: 1.8rem !important; /* Domina los estilos que pusiste directo en el HTML */
+        text-align: center !important;
+    }
+
+    /* Asegura que los contenedores de cristal no empujen la pantalla */
+    .seccion-cristal, 
+    .container-fluid, 
+    .row {
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 }
