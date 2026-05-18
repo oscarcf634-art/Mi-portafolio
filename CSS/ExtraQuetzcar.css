@@ -1,0 +1,53 @@
+/* Imagen ocupe todo el cuadro */
+.flip-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.671)), url('../IMG/05585102bdf35ed5e3726f4c9e550377.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Para que el contenedor principal use todo el ancho */
+.full-width-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 3%;
+}
+
+/* Cuadro transparencia sutil */
+.cuadro-blanco-personalizado {
+    background-color: rgba(0, 128, 128, 0.15) !important; /* El 0.15 es la transparencia (15%) */
+    border: 1px solid rgba(255, 255, 255, 0.2) !important; /* Borde casi invisible */
+    color: white !important;
+    text-align: justify;
+    padding: 2rem !important;
+    border-radius: 10px; 
+}
+
+/* Cuadro gris (títulos/otros), ahora transparente oscuro */
+.cuadro-gris-personalizado {
+    background-color: rgba(156, 101, 220, 0.4) !important; /* Fondo oscuro al 40% para resaltar títulos */
+    color: white !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 5px;
+}
+
+/* Estilo para las imágenes de software */
+.img-software {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 2.5rem;
+}
+
+/*Cambio de tipografia del botón verde*/
+    .btn-font-custom {
+    font-family: 'comicB' ;
+        src: url('../FONTS/Comic_Relief/ComicRelief-Bold.ttf'); 
+}

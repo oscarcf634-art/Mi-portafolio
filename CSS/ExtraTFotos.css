@@ -1,0 +1,161 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.671)), url('../IMG/524f21d7103aa3b913ac3cd1e96ffd54.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/*Cambio de tipografia del botón verde*/
+    .btn-font-custom {
+    font-family: 'comicB' ;
+        src: url('../FONTS/Comic_Relief/ComicRelief-Bold.ttf'); 
+}
+
+
+/* Forzar fondo claro y bordes definidos para el modal */
+#exampleModal .modal-content {
+    background-color: #ffffff !important; /* Fondo blanco sólido */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Asegurar que el título sea negro y legible */
+#exampleModal .modal-title {
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+}
+
+/* Ajustar el color de la tipografía general dentro del modal */
+#exampleModal .modal-body, 
+#exampleModal .fcomicB {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* Estilo para el botón de cerrar (la X superior) */
+#exampleModal .btn-close {
+    filter: none !important; /* Asegura que no se vea blanca si el fondo es claro */
+}
+
+
+
+
+/* Contenedor principal que oculta lo que sale de la pantalla */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 16px 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Efecto suave al abrir */
+.modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-out;
+}
+.modal.show .modal-dialog {
+    transform: scale(1);
+}
+/* La caja con efecto cristal */
+card-trabajo-cristal {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Obliga a todas las cajas a tener el mismo alto en la fila */
+    justify-content: space-between; /* Distribuye el título arriba y el texto abajo uniformemente */
+    padding: 25px;
+}
+
+.card-trabajo-cristal {
+    background: rgba(156, 101, 220, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(244, 174, 225, 0.18);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo horizontalmente */
+    justify-content: center; /* Centra todo verticalmente */
+    min-height: 400px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.card-trabajo-cristal:hover {
+    transform: translateY(-10px); /* Efecto de levitación al pasar el mouse */
+}
+
+.card-trabajo-cristal {
+    /* Elimina cualquier 'width' en px si lo tienes */
+    width: 100%; 
+    background: rgba(156, 101, 220, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid (244, 174, 225, 0.18);
+    border-radius: 20px;
+    padding: 20px;
+    /* Esto asegura que se vea bien en tu fondo de nubes */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+}
+
+/* Margen extra para que el contenido respire */
+.container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+/* Para que los videos e imágenes se adapten al ancho de la caja */
+.media-contenedor {
+    width: 100%;
+    height: 200px; /* Tú decides la altura, pero será IGUAL para todos */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2); /* Fondo sutil por si la imagen no llena todo */
+    margin: 15px 0;
+}
+
+.media-contenedor img, 
+.media-contenedor video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ESTA ES LA CLAVE: recorta la imagen/video para que llene el espacio sin deformarse */
+}
+
+/* Reduce el tamaño del modal XL para que no sea tan invasivo */
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 60% !important; /* Ajusta este porcentaje si lo quieres más o menos ancho */
+    }
+}
+
+/* Asegura que el video o imagen no exceda la altura de la vista */
+.modal-body video, 
+.modal-body img {
+    max-height: 70vh !important; /* Reduce la altura para que el botón 'Cerrar' sea visible siempre */
+    width: auto !important;      /* Mantiene la proporción sin deformar */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para el botón de cerrar para que sea discreto */
+.btn-outline-light {
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 0.9rem;
+}

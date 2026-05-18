@@ -1,0 +1,65 @@
+
+ @font-face {
+        font-family: 'spiderman' ;
+        src: url('../FONTS/the_amazing_spider_man/The Amazing Spider-Man.ttf');
+    }
+
+    .fuente {
+        font-family: spiderman ;
+    }
+
+
+
+    @font-face {
+        font-family: 'estrella' ;
+        src: url('../FONTS/Estrella/Estrella-Early.otf');
+    }
+
+    .festrella {
+        font-family: estrella ;
+    }
+    
+
+/* Solo cuando el h1 tenga la clase .festrella se hará más grande */
+h1.festrella {
+    font-size: 7rem !important;
+}
+
+/* Solo cuando el h2 tenga la clase .festrella */
+h2.festrella {
+    font-size: 6.5rem !important;
+}
+
+/* Solo cuando el h3 tenga la clase .festrella */
+h3.festrella {
+    font-size: 2.8rem !important;
+}
+
+/* Solo cuando el p tenga la clase .festrella */
+p.festrella {
+    font-size: 1.6rem !important;
+    line-height: 1.4;
+}
+
+
+
+
+     @font-face {
+        font-family: 'comicB' ;
+        src: url('../FONTS/Comic_Relief/ComicRelief-Bold.ttf');
+    }
+
+    .fcomicB {
+        font-family: comicB ;
+    }
+
+
+     @font-face {
+        font-family: 'comicR' ;
+        src: url('../FONTS/Comic_Relief/ComicRelief-Regular.ttf');
+    }
+
+    .fcomicR {
+        font-family: comicR ;
+    }
+
