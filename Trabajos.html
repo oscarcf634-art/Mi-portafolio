@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/ExtraTContenido.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css">
+    <script src="JS/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0);">
+  <div class="container-fluid">
+    <img src="IMG/WhatsApp_Image_2026-05-04_at_11.34.04_AM-removebg-preview-removebg-preview.png" alt="bootstrap" width="6%" height="6%">
+    <a class="navbar-brand fcomicB" href="Quetzcar.html">Quetzcar</a> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 fcomicB">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="DCV.html">DCV</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Trabajos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Trabajos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Trabajos.html">Contenido</a></li>
+            <li><a class="dropdown-item" href="Trabajos-fotos.html">Fotografías</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Trabajos-nexo.html">Nexo</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-info btn-font-custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Sublime 
+</button>
+
+<!-- Modal -->
+<div class="modal fade fcomicB" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fcomicB" id="exampleModalLabel">¡Diviértete!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="IMG/WhatsApp Image 2026-05-13 at 11.06.06 PM.jpeg" class="container-fluid" width="350" height="350" autoplay loop muted controls style="border: 0;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: rgb(0, 128, 128);">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</nav>
+<script src="JS/bootstrap.bundle.min.js"></script>
+
+<!--Cuerpo-->
+<div class="container-fluid my-4">
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <!-- Nombres de tus trabajos -->
+            <span class="marquee-item h1 fuente">DIBUJO TRADICIONAL</span>
+            <span class="marquee-item h1 fuente">ILUSTRACION DIGITAL</span>
+            <span class="marquee-item h1 fuente">ANIMACION</span>
+            <span class="marquee-item h1 fuente">FOTOGRAFIA</span>
+            <span class="marquee-item h1 fuente">IMPRESION</span>
+            <span class="marquee-item h1 fuente">DESING</span>
+            <span class="marquee-item h1 fuente">FLYERS</span>
+            <span class="marquee-item h1 fuente">ARTESANIAS</span>
+            <span class="marquee-item h1 fuente">STOP MOTION</span>
+            <span class="marquee-item h1 fuente">Y MAS</span>
+        </div>
+    </div>
+</div>
+
+<!-- El contenedor 'container' añade los márgenes laterales que faltan en tu foto -->
+<div class="container my-5">
+    
+    <!-- 'g-5' aumenta la separación entre las cajas transparentes -->
+    <div class="row g-5 justify-content-center">
+        
+    <div class="container my-5">
+    <!-- Fila de trabajos -->
+    <div class="row g-5 justify-content-center">
+        
+        <!-- CAJA 1: Blender Animación -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal1" style="cursor: pointer;">
+                <h3 class="festrella">Blender</h3>
+                <div class="media-contenedor">
+                    <!-- Nota: Asegúrate de que el archivo sea .mp4, no .jpeg si es video -->
+                    <video class="w-100" autoplay muted loop playsinline>
+                        <source src="IMG/WhatsApp Video 2026-05-12 at 4.30.10 PM.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="fcomicR">Animación</p>
+            </div>
+        </div>
+
+        <!-- CAJA 2: Dibujo -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal2" style="cursor: pointer;">
+                <h3 class="festrella">Dibujo</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-13 at 5.44.56 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Composición abstracta de una sola línea</p>
+            </div>
+        </div>
+
+        <!-- CAJA 3: Animación Túnel -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal3" style="cursor: pointer;">
+                <h3 class="festrella">Blender</h3>
+                <div class="media-contenedor">
+                    <video class="w-100" autoplay muted loop playsinline>
+                        <source src="IMG/WhatsApp Video 2026-05-12 at 4.30.10 PM (1).mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="fcomicR">Animación tunel</p>
+            </div>
+        </div>
+
+        <!-- CAJA 4: Stop Motion -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal4" style="cursor: pointer;">
+                <h3 class="festrella">Stop Motion</h3>
+                <div class="media-contenedor">
+                    <video class="w-100" autoplay muted loop playsinline>
+                        <source src="IMG/WhatsApp Video 2026-05-12 at 4.18.04 PM.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="fcomicR">Gorillaz</p>
+            </div>
+        </div>
+
+        <!-- CAJA 5: Fotografía -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal5" style="cursor: pointer;">
+                <h3 class="festrella">Fotografía</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 4.30.12 PM (3).jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Retrato con paisaje</p>
+            </div>
+        </div>
+
+        <!-- CAJA 6: Serigrafía -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal6" style="cursor: pointer;">
+                <h3 class="festrella">Serigrafía</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-13 at 7.00.28 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Impresión en  bolsa de mochila</p>
+            </div>
+        </div>
+
+        <!-- CAJA 7: Dibujo -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal7" style="cursor: pointer;">
+                <h3 class="festrella">Dibujo</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-13 at 6.03.46 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Coloreado de Miss Hokusai</p>
+            </div>
+        </div>
+
+        <!-- CAJA 8: Flyer -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal8" style="cursor: pointer;">
+                <h3 class="festrella">Flyer</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 10.03.04 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Flyer de evento</p>
+            </div>
+        </div>
+
+        <!-- CAJA 9: Dibujo -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal9" style="cursor: pointer;">
+                <h3 class="festrella">Dibujo</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-13 at 5.43.41 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Retrato monocromático</p>
+            </div>
+        </div>
+
+        <!-- CAJA 10: Stiker -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal10" style="cursor: pointer;">
+                <h3 class="festrella">Stiker</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-04 at 3.48.35 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Logo stiker</p>
+            </div>
+        </div>
+
+        <!-- CAJA 11: Separador -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal11" style="cursor: pointer;">
+                <h3 class="festrella">Separador</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 4.30.12 PM (2).jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Separador personalizado</p>
+            </div>
+        </div>
+
+        <!-- CAJA 12: Logo -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal12" style="cursor: pointer;">
+                <h3 class="festrella">Logo</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 4.38.38 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Logo y creación de personaje con @c0oper09</p>
+            </div>
+        </div>
+
+        <!-- CAJA 13: Bisutería -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal13" style="cursor: pointer;">
+                <h3 class="festrella">Bisutería</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-13 at 5.46.26 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">LLavero compartido</p>
+            </div>
+        </div>
+
+        <!-- CAJA 14: Bisutería -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal14" style="cursor: pointer;">
+                <h3 class="festrella">Bisutería</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 4.30.12 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Pulsera personalizada</p>
+            </div>
+        </div>
+
+        <!-- CAJA 15: Dibujo -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal15" style="cursor: pointer;">
+                <h3 class="festrella">Dibujo</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 9.48.39 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Grafito</p>
+            </div>
+        </div>
+
+        <!-- CAJA 16: Stencil -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal16" style="cursor: pointer;">
+                <h3 class="festrella">Stencil</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 10.34.24 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Técnica en aerosol </p>
+            </div>
+        </div>
+
+        <!-- CAJA 17: Dibujo -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal17" style="cursor: pointer;">
+                <h3 class="festrella">Dibujo</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-13 at 5.49.37 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Creación de personaje</p>
+            </div>
+        </div>
+
+        <!-- CAJA 18: Ilustrator -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal18" style="cursor: pointer;">
+                <h3 class="festrella">Ilustrator</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/WhatsApp Image 2026-05-12 at 4.38.37 PM.jpeg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Vectorización para plotter</p>
+            </div>
+        </div>
+
+        <!-- CAJA 19: Separador -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal19" style="cursor: pointer;">
+                <h3 class="festrella">Dibujo en cartón</h3>
+                <div class="media-contenedor">
+                    <img src="IMG/IMG_20181030_155411.jpg" class="img-fluid" alt="Dibujo">
+                </div>
+                <p class="fcomicR">Figura de cartón</p>
+            </div>
+        </div>
+
+        <!-- CAJA 20: Animación cereal -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+            <div class="card-trabajo-cristal text-center" data-bs-toggle="modal" data-bs-target="#modal20" style="cursor: pointer;">
+                <h3 class="festrella">Blender</h3>
+                <div class="media-contenedor">
+                    <video class="w-100" autoplay muted loop playsinline>
+                        <source src="IMG/WhatsApp Video 2026-05-12 at 4.30.09 PM.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="fcomicR">Animación de un cereal con @ukelin_</p>
+            </div>
+        </div>
+
+    </div> <!-- Fin de la fila -->
+</div>
+
+<!-- SECCIÓN DE MODALES (Ponlos fuera del container principal para evitar errores visuales) -->
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <video class="img-fluid rounded shadow-lg" controls autoplay muted loop style="max-height: 85vh;">
+                    <source src="IMG/WhatsApp Video 2026-05-12 at 4.30.10 PM.mp4" type="video/mp4">
+                </video>
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 (Imagen) -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-13 at 5.44.56 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <video class="img-fluid rounded shadow-lg" controls autoplay muted loop style="max-height: 85vh;">
+                    <source src="IMG/WhatsApp Video 2026-05-12 at 4.30.10 PM (1).mp4" type="video/mp4">
+                </video>
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <video class="img-fluid rounded shadow-lg" controls autoplay muted loop style="max-height: 85vh;">
+                    <source src="IMG/WhatsApp Video 2026-05-12 at 4.18.04 PM.mp4" type="video/mp4">
+                </video>
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 5 (Imagen) -->
+<div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 4.30.12 PM (3).jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 6 (Imagen) -->
+<div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-13 at 7.00.28 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 7 (Imagen) -->
+<div class="modal fade" id="modal7" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-13 at 6.03.46 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 8 (Imagen) -->
+<div class="modal fade" id="modal8" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 10.03.04 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 9 (Imagen) -->
+<div class="modal fade" id="modal9" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-13 at 5.43.41 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 10 (Imagen) -->
+<div class="modal fade" id="modal10" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-04 at 3.48.35 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 11 (Imagen) -->
+<div class="modal fade" id="modal11" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 4.30.12 PM (2).jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 12 (Imagen) -->
+<div class="modal fade" id="modal12" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 4.38.38 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 13 (Imagen) -->
+<div class="modal fade" id="modal13" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-13 at 5.46.26 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 14 (Imagen) -->
+<div class="modal fade" id="modal14" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 4.30.12 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 15 (Imagen) -->
+<div class="modal fade" id="modal15" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 9.48.39 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 16 (Imagen) -->
+<div class="modal fade" id="modal16" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 10.34.24 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 17 (Imagen) -->
+<div class="modal fade" id="modal17" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-13 at 5.49.37 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 18 (Imagen) -->
+<div class="modal fade" id="modal18" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/WhatsApp Image 2026-05-12 at 4.38.37 PM.jpeg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 19 (Imagen) -->
+<div class="modal fade" id="modal19" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <img src="IMG/IMG_20181030_155411.jpg" class="img-fluid rounded shadow-lg" style="max-height: 85vh;">
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 20 -->
+<div class="modal fade" id="modal20" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 d-flex flex-column align-items-center">
+                <video class="img-fluid rounded shadow-lg" controls autoplay muted loop style="max-height: 85vh;">
+                    <source src="IMG/WhatsApp Video 2026-05-12 at 4.30.09 PM.mp4" type="video/mp4">
+                </video>
+                <button type="button" class="btn btn-outline-light mt-3 festrella" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Repite lo mismo para modal3 y modal4 cambiando los IDs y las rutas de video... -->
+
+<!--Footer-->
+</div> </div>         
+<footer class="text-white text-center py-4 mt-auto py-4" style="background-color: rgb(0, 0, 0); width: 100%; margin: 0; padding: 0;">
+    <div class="container fcomicR">
+        <p class="mb-2">Datos de contacto:</p>
+        
+        <div class="mb-3">
+            <a href="https://www.facebook.com/share/14dr9LVwQZ5/" class="text-white mx-3 fs-4">
+                <i class="bi bi-facebook">@Oscar CF</i>
+            </a>
+            <a href="https://x.com/quetzcar" class="text-white mx-3 fs-4">
+                <i class="bi bi-twitter-x">@quetzcar</i>
+            </a>
+            <a href="https://www.instagram.com/_quetzcar?igsh=MTRkem0yMnBtdHQ5dA==" class="text-white mx-3 fs-4">
+                <i class="bi bi-instagram">@_quetzcar</i>
+            </a>
+            <a href="https://www.tiktok.com/@quetzcar_?_r=1&_t=ZS-965h5hAs7RI" class="text-white mx-3 fs-4">
+                <i class="bi bi-tiktok">@Quetzcar</i>
+            </a>
+            <a href="https://wa.me/525565005761" class="text-white mx-3 fs-4">
+                <i class="bi bi-whatsapp">+525565005761</i>
+            </a>
+        </div>
+
+        <p class="mb-0">© 2026 Luis Oscar Cabañas Flores | Todos los derechos reservados</p>
+    </div>
+</footer>
+</div> 
+      
+</body>
+</html>
